@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node","cypress-plugin-api"],
+      "resolveJsonModule": true,
+      "baseUrl": "../",
+      "paths": {
+        "@fixtures/*":[
+          "cypress/fixtures/*"
+        ]
+      }
+    },
+    "include": ["**/*.ts"]
+  }
